@@ -13,7 +13,7 @@ Files per capture:
 |------|-------------|
 | `scene.glb` | Full merged colored point cloud (world frame = head camera, metric scale, OpenCV cam2world convention) |
 | `scene.ply` | Same points in PLY format |
-| `scene_filtered.glb` | Points within 2.0 m radius of the head camera (workspace only, far floor/walls removed) |
+| `scene_filtered.glb` | Points within 2.0 m radius of the head camera (workspace only, far floor/walls removed), plus estimated camera frustum markers: head = red, hand_left = green, hand_right = blue |
 | `scene_filtered.ply` | Same filtered points in PLY format |
 
 View `.glb` files by dragging them into <https://gltf-viewer.donmccurdy.com/> or any glTF viewer;
