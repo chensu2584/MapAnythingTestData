@@ -1,0 +1,50 @@
+{
+  "timestamp_ns": 1782974849386438912,
+  "images": [
+    {
+      "name": "head",
+      "shape": [
+        400,
+        640,
+        3
+      ],
+      "dtype": "uint8",
+      "saved_files": [
+        "/home/test/software/test_corobot/smoke_test_outputs/g2_smoke_20260702_144728/head.npy",
+        "/home/test/software/test_corobot/smoke_test_outputs/g2_smoke_20260702_144728/head.png"
+      ]
+    },
+    {
+      "name": "hand_left",
+      "shape": [
+        1056,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "saved_files": [
+        "/home/test/software/test_corobot/smoke_test_outputs/g2_smoke_20260702_144728/hand_left.npy",
+        "/home/test/software/test_corobot/smoke_test_outputs/g2_smoke_20260702_144728/hand_left.png"
+      ]
+    },
+    {
+      "name": "hand_right",
+      "shape": [
+        1056,
+        1280,
+        3
+      ],
+      "dtype": "uint8",
+      "saved_files": [
+        "/home/test/software/test_corobot/smoke_test_outputs/g2_smoke_20260702_144728/hand_right.npy",
+        "/home/test/software/test_corobot/smoke_test_outputs/g2_smoke_20260702_144728/hand_right.png"
+      ]
+    }
+  ],
+  "state_lengths": {
+    "arm": 14,
+    "head": 3,
+    "waist": 5,
+    "gripper": 2
+  }
+}
